@@ -1,96 +1,108 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# IDE and editors
-.idea/
-.vscode/
+# # IDE and editors
+# .idea/
+# .vscode/
 
-# Dependencies
-node_modules/
-/node_modules
-/.pnp
-.pnp.js
-.yarn/install-state.gz
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
+# # Dependencies
+# node_modules/
+# /node_modules
+# /.pnp
+# .pnp.js
+# .yarn/install-state.gz
+# .yarn/*
+# !.yarn/patches
+# !.yarn/plugins
+# !.yarn/releases
+# !.yarn/versions
 
-# Testing
-/coverage
+# # Testing
+# /coverage
 
-# Next.js
-/.next/
-/out/
-next-env.d.ts
-*.tsbuildinfo
+# # Next.js
+# /.next/
+# /out/
+# next-env.d.ts
+# *.tsbuildinfo
 
-# Production builds
-/build
-dist/
-dist
+# # Production builds
+# /build
+# dist/
+# dist
 
-# Environment files (comprehensive coverage)
-*token.json*
-*credentials.json*
+# # Environment files (comprehensive coverage)
+# *token.json*
+# *credentials.json*
 
-# Logs and debug files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
-dump.rdb
+# # Logs and debug files
+# npm-debug.log*
+# yarn-debug.log*
+# yarn-error.log*
+# .pnpm-debug.log*
+# dump.rdb
 
-# System files
-.DS_Store
-*.pem
+# # System files
+# .DS_Store
+# *.pem
 
-# Python
-__pycache__/
-*pyc*
-venv/
-.venv/
+# # Python
+# __pycache__/
+# *pyc*
+# venv/
+# .venv/
 
-# Development tools
-chainlit.md
-.chainlit
-.ipynb_checkpoints/
-.ac
+# # Development tools
+# chainlit.md
+# .chainlit
+# .ipynb_checkpoints/
+# .ac
 
-# Deployment
-.vercel
+# # Deployment
+# .vercel
 
-# Data and databases
-agenthub/agents/youtube/db
+# # Data and databases
+# agenthub/agents/youtube/db
 
-# Archive files and large assets
-**/*.zip
-**/*.tar.gz
-**/*.tar
-**/*.tgz
-*.pack
-*.deb
-*.dylib
+# # Archive files and large assets
+# **/*.zip
+# **/*.tar.gz
+# **/*.tar
+# **/*.tgz
+# *.pack
+# *.deb
+# *.dylib
 
-# Build caches
-.cache/
+# # Build caches
+# .cache/
 
-# Mobile development
-android-sdk/ node_modules/@next/swc-linux-arm64-gnu/next-swc.linux-arm64-gnu.node
-node_modules/@next/swc-linux-arm64-musl/next-swc.linux-arm64-musl.node
-node_modules/@next/swc-linux-arm64-gnu/next-swc.linux-arm64-gnu.node
+# # Mobile development
+# android-sdk/ node_modules/@next/swc-linux-arm64-gnu/next-swc.linux-arm64-gnu.node
+# node_modules/@next/swc-linux-arm64-musl/next-swc.linux-arm64-musl.node
+# node_modules/@next/swc-linux-arm64-gnu/next-swc.linux-arm64-gnu.node
 
-# Environment variables (IMPORTANT)
+# # Environment variables (IMPORTANT)
+# .env
+# .env.*
+# # Emergent
+# .emergent/
+
+# # Hide all markdown files
+# *.md
+
+# # But keep README
+# !README.md
+
+# Environment
 .env
 .env.*
+
 # Emergent
 .emergent/
 
-# Hide all markdown files
+# Ignore all markdown except README
 *.md
-
-# But keep README
 !README.md
+
 
 
 
